@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "courses": [
+    {
+      "name": "示例数学",
+      "teacher": "示例教师",
+      "location": "示例教室",
+      "weekday": 1,
+      "startSection": 1,
+      "endSection": 2,
+      "startWeek": 1,
+      "endWeek": 20,
+      "weekType": "all",
+      "color": "#6C7CDB",
+      "note": "用于测试导入"
+    },
+    {
+      "name": "示例英语",
+      "teacher": "",
+      "location": "",
+      "weekday": 2,
+      "startSection": 1,
+      "endSection": 2,
+      "startWeek": 1,
+      "endWeek": 20,
+      "weekType": "odd",
+      "color": "#409D91",
+      "note": "单周"
+    }
+  ]
+}

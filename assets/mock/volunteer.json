@@ -1,0 +1,6 @@
+[
+  {"id":"volunteer-1","title":"让图书回到它的家","startTime":"2026-10-18T09:00:00+08:00","endTime":"2026-10-18T12:00:00+08:00","location":"示例社区图书馆","hours":3,"status":"available","description":"示例志愿活动：协助整理图书、引导读者。此页面不接入官方报名服务。"},
+  {"id":"volunteer-2","title":"周末社区陪伴计划","startTime":"2026-10-11T09:00:00+08:00","endTime":"2026-10-11T13:00:00+08:00","location":"示例社区服务中心","hours":4,"status":"registered","description":"示例已报名活动，用于展示当前报名列表。"},
+  {"id":"volunteer-3","title":"校园绿色行动","startTime":"2026-09-26T09:00:00+08:00","endTime":"2026-09-26T12:00:00+08:00","location":"校园公共区域","hours":3,"status":"completed","description":"示例历史活动：时长计入已完成志愿统计。"},
+  {"id":"volunteer-4","title":"新生指引志愿服务","startTime":"2026-09-05T08:00:00+08:00","endTime":"2026-09-05T13:00:00+08:00","location":"示例迎新点","hours":5,"status":"completed","description":"示例历史志愿活动。"}
+]

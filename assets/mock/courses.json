@@ -1,0 +1,8 @@
+[
+  {"id":"sample-course-1","name":"高等数学 A","teacher":"张老师","location":"综合楼 B305","weekday":1,"startSection":1,"endSection":2,"startWeek":1,"endWeek":20,"weekType":"all","color":"#6C7CDB","note":"示例课程，可编辑或删除"},
+  {"id":"sample-course-2","name":"大学英语","teacher":"李老师","location":"文科楼 A203","weekday":2,"startSection":3,"endSection":4,"startWeek":1,"endWeek":20,"weekType":"all","color":"#4A9B8E"},
+  {"id":"sample-course-3","name":"程序设计基础","teacher":"陈老师","location":"实验楼 402","weekday":3,"startSection":1,"endSection":3,"startWeek":1,"endWeek":20,"weekType":"all","color":"#CB8A5C"},
+  {"id":"sample-course-4","name":"线性代数","teacher":"王老师","location":"综合楼 B208","weekday":4,"startSection":5,"endSection":6,"startWeek":1,"endWeek":20,"weekType":"even","color":"#AA74B0"},
+  {"id":"sample-course-5","name":"体育","teacher":"周老师","location":"运动场","weekday":5,"startSection":7,"endSection":8,"startWeek":1,"endWeek":20,"weekType":"all","color":"#759C52"},
+  {"id":"sample-course-6","name":"阅读与写作","teacher":"刘老师","location":"文科楼 C106","weekday":1,"startSection":5,"endSection":6,"startWeek":1,"endWeek":20,"weekType":"all","color":"#5698C4"}
+]

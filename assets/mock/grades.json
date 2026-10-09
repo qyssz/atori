@@ -1,0 +1,7 @@
+[
+  {"id":"sample-grade-1","courseName":"高等数学 A","score":95,"credit":4,"semester":"2025-2026 春","courseType":"必修","includedInGpa":true},
+  {"id":"sample-grade-2","courseName":"线性代数","score":80,"credit":2,"semester":"2025-2026 春","courseType":"必修","includedInGpa":true},
+  {"id":"sample-grade-3","courseName":"大学英语","score":88,"credit":3,"semester":"2025-2026 春","courseType":"公共课","includedInGpa":true},
+  {"id":"sample-grade-4","courseName":"程序设计基础","score":92,"credit":3,"semester":"2025-2026 春","courseType":"专业课","includedInGpa":true},
+  {"id":"sample-grade-5","courseName":"艺术欣赏","score":86,"credit":1,"semester":"2025-2026 秋","courseType":"选修","includedInGpa":false}
+]

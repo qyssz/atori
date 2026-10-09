@@ -1,0 +1,58 @@
+[
+  {
+    "id": "second-1",
+    "title": "与书相遇：秋日阅读分享",
+    "category": "文化艺术",
+    "organizer": "示例读书社",
+    "startTime": "2026-10-16T14:00:00+08:00",
+    "endTime": "2026-10-16T16:00:00+08:00",
+    "location": "图书馆交流空间",
+    "score": 0.5,
+    "status": "available",
+    "description": "示例活动。分享一本喜欢的书，交流阅读心得。此页面不提供真实报名。",
+    "registrationStart": "2026-10-09T06:00:00.000Z",
+    "registrationEnd": "2026-10-15T06:00:00.000Z"
+  },
+  {
+    "id": "second-2",
+    "title": "探索 AI：创意实践工作坊",
+    "category": "学术科技",
+    "organizer": "示例创新社",
+    "startTime": "2026-10-12T18:30:00+08:00",
+    "endTime": "2026-10-12T20:30:00+08:00",
+    "location": "创新中心 201",
+    "score": 1,
+    "status": "registered",
+    "description": "示例已报名活动，用于展示活动状态与详情。",
+    "registrationStart": "2026-10-05T10:30:00.000Z",
+    "registrationEnd": "2026-10-11T10:30:00.000Z"
+  },
+  {
+    "id": "second-3",
+    "title": "校园摄影漫步",
+    "category": "文化艺术",
+    "organizer": "示例摄影社",
+    "startTime": "2026-09-20T09:00:00+08:00",
+    "endTime": "2026-09-20T11:00:00+08:00",
+    "location": "校园步道",
+    "score": 1.5,
+    "status": "completed",
+    "description": "示例已完成活动，分数计入本地展示统计。",
+    "registrationStart": "2026-09-13T01:00:00.000Z",
+    "registrationEnd": "2026-09-19T01:00:00.000Z"
+  },
+  {
+    "id": "second-4",
+    "title": "新学期运动体验",
+    "category": "体育健康",
+    "organizer": "示例运动社",
+    "startTime": "2026-09-12T15:00:00+08:00",
+    "endTime": "2026-09-12T17:00:00+08:00",
+    "location": "体育馆",
+    "score": 1,
+    "status": "ended",
+    "description": "示例已结束活动。",
+    "registrationStart": "2026-09-05T07:00:00.000Z",
+    "registrationEnd": "2026-09-11T07:00:00.000Z"
+  }
+]
