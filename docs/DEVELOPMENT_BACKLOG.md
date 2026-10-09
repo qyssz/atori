@@ -7,7 +7,7 @@
 | 批次 | 状态 | 产出与验收证据 |
 |---|---|---|
 | T00 工具链 | 完成 | Flutter/Dart、SDK36、NDK、Gradle；doctor Android toolchain 通过 |
-| T01 工程 | 完成 | Material3、Riverpod、go_router、四栏；路由与主题界面测试通过；GitHub上传准备阶段建立main分支 |
+| T01 工程 | 完成 | Material3、Riverpod、go_router、四栏；路由与主题界面测试通过；公开仓库 qyssz/atori 的 main 分支已上传，v1.0.0 Release 已发布 |
 | T02 数据层 | 完成 | 类型校验、Mock/Hive/Repository、串行原子写入；持久化与失败测试通过 |
 | T03 课表 | 完成 | 周视图、多课表、CRUD、单双周、冲突与学期设置；操作/窄屏/重叠回归通过 |
 | T04 成绩 | 完成 | CRUD、独立计算策略、筛选与分析；95×4+80×2 加权结果90等测试通过 |

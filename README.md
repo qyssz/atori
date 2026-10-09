@@ -24,7 +24,7 @@ GPA 使用可替换的示例 4.0 策略，页面明确说明不是川大官方�
 
 ## APK 下载
 
-发布后可从 [v1.0.0 Release](https://github.com/qyssz/atori/releases/tag/v1.0.0) 下载
+可从 [v1.0.0 Release](https://github.com/qyssz/atori/releases/tag/v1.0.0) 下载
 [Android APK](https://github.com/qyssz/atori/releases/download/v1.0.0/app-release.apk)。
 本地构建产物位于 `build/app/outputs/flutter-apk/app-release.apk`。最低Android7.0，当前为开发签名。
 个人课表导入文件、设备备份、SDK缓存和签名密钥均不进入仓库。

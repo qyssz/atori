@@ -4,7 +4,7 @@
 
 ## 本轮结果
 
-用户先确认项目梳理范围，随后要求“开始”“按md文件制作”。本轮由原先只有需求文档的目录完成 Flutter Android MVP；原始规格保留。未接入真实校园服务或发布到外部平台。
+用户先确认项目梳理范围，随后要求“开始”“按md文件制作”。本轮由原先只有需求文档的目录完成 Flutter Android MVP；原始规格保留。未接入真实校园服务。随后按用户要求上传至 GitHub 公开仓库，并发布体验版 APK。
 
 已交付源码、四份独立 Mock 资源、27项 Flutter 测试、工具链与构建脚本、格式样例、运行及后续开发文档，以及可安装 Release APK。
 
@@ -12,7 +12,7 @@
 
 | 项目 | 实际结果 |
 |---|---|
-| APK | 本地：`build/app/outputs/flutter-apk/app-release.apk`；发布目标：[v1.0.0 Release](https://github.com/qyssz/atori/releases/tag/v1.0.0) |
+| APK | [下载 app-release.apk](https://github.com/qyssz/atori/releases/download/v1.0.0/app-release.apk)；本地：`build/app/outputs/flutter-apk/app-release.apk` |
 | 文件字节数 | 56,364,215（构建显示53.8MB） |
 | SHA256 | `f4deeebdd816133f515a5874d69cff6af48b530cc6b834d72854c91eac82a3b9` |
 | 应用 / 包名 | 亚托莉 / com.example.atori |
@@ -22,7 +22,15 @@
 | 实测设备 | 专用 API36 / Android16 x86_64 模拟器 emulator-5556 |
 | 实体手机 | 未连接，未做真机测试 |
 
-APK 使用 release 编译配置和开发签名，适合当前本地验收。正式发布另需永久包名和发布密钥；本次没有对外分发。
+APK 使用 release 编译配置和开发签名，已通过 GitHub Release 提供体验下载。应用商店正式发布另需永久包名和发布密钥。
+
+## GitHub 交付
+
+- 公开仓库：[qyssz/atori](https://github.com/qyssz/atori)，默认分支 `main`。
+- 源码基线：`ccf4f44a368f2b79f70046a3d820264eacbd8900`；Release 标签为 `v1.0.0`。
+- [v1.0.0 Release](https://github.com/qyssz/atori/releases/tag/v1.0.0) 已公开，包含 APK 和 `SHA256SUMS.txt`。
+- GitHub 返回的 APK 大小为 56,364,215 字节，SHA256 与本地构建产物一致。
+- 提交使用 GitHub 隐私邮箱。公开文件未检出个人学号或凭据；真实教务响应、个人转换结果、设备备份、SDK 和签名私钥均未上传。
 
 ## 修改与实现
 
@@ -107,6 +115,6 @@ UI层级每次使用新文件名并等待捕获成功，避免启动尚未完成
 
 当前活动状态为固定示例，不是真实报名；不支持校园登录、真实教务同步或ICS导入。默认校历及节次为可修改示例，活动时间按设备当地时区显示；测试模拟器已设为Asia/Shanghai。首次使用真实数据前应调整学期和作息。
 
-未验证实体手机、API24实际设备、所有厂商文件管理器或高字体缩放；这些列入下一批R01。开发交付时未初始化Git；GitHub上传准备阶段已建立main分支，个人导入、设备缓存和签名文件被忽略。正式签名、官方GPA和接口资料仍待确认，详细实施与验收见 [后续开发清单](DEVELOPMENT_BACKLOG.md)。
+未验证实体手机、API24实际设备、所有厂商文件管理器或高字体缩放；这些列入下一批R01。GitHub main 分支与 v1.0.0 Release 已交付，个人导入、设备缓存和签名文件被忽略。正式签名、官方GPA和接口资料仍待确认，详细实施与验收见 [后续开发清单](DEVELOPMENT_BACKLOG.md)。
 
 使用与复现见 [README](../README.md)、[RUNBOOK](RUNBOOK.md)、[数据格式](DATA_FORMAT.md)。

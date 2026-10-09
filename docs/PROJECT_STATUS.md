@@ -35,7 +35,7 @@
 | Pub / 临时缓存 | D:/atori-sdk/pub-cache、temp；避免跨磁盘重命名失败 |
 | 构建工作副本 | D:/atori-sdk/atori-workspace；规避中文路径分析协议错误 |
 | 登录与远程配置 | 无需配置；离线游客 MVP |
-| Git | GitHub上传准备阶段已初始化main分支；忽略个人导入、缓存、备份及签名文件 |
+| Git | 已上传至公开仓库 [qyssz/atori](https://github.com/qyssz/atori)，main 分支；忽略个人导入、缓存、备份及签名文件；v1.0.0 Release 已发布 APK 和校验文件 |
 | Android 设备 | API 36 x86_64 测试模拟器 emulator-5556；未连接实体手机 |
 
 源码、SDK 与缓存分别存放；辅助脚本不持久修改 PATH。SDK 与 Gradle 压缩包在使用前验证校验值。
